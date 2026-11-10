@@ -2,6 +2,8 @@
 
 [English version](README.en.md)
 
+[Versión en español](README.es.md)
+
 Ferramenta em Python para ler um save SRAM (`.srm`) de **Harvest Moon para SNES** e exibir marcadores de eventos associados às Power Berries. Também verifica o estado do diamante azul, que permite inferir se a cena da flor de inverno já foi acionada quando se sabe que o item foi obtido anteriormente.
 
 O projeto de decompilação [HarvestMoonSNES](https://github.com/dzik87/HarvestMoonSNES) serviu como guia para localizar e interpretar rotinas e campos. Os saves usados no estudo vieram de uma ROM comum do jogo, disponível publicamente há anos, e não de uma build desse projeto. O verificador lê saves SRAM normais (`.srm`); a análise não exige uma ROM compilada a partir do disassembly. As conclusões são inferências sobre a versão e os saves analisados, não garantias universais para todas as revisões do jogo ou condições de save.
@@ -46,6 +48,8 @@ Um `.srm` isolado não consegue distinguir “consumido” de “nunca obtido”
 - [Mapa dos campos do SRAM usados pelo programa](docs/layout-sram.md)
 - [Study: history, methods, results, and limitations](docs/estudo.en.md)
 - [SRAM fields used by the checker](docs/layout-sram.en.md)
+- [Estudio: historial, método, resultados y limitaciones (ES)](docs/estudio.es.md)
+- [Campos SRAM usados por el verificador (ES)](docs/layout-sram.es.md)
 
 ## Base de engenharia reversa
 

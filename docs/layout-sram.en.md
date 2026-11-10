@@ -2,6 +2,8 @@
 
 [Versão em português brasileiro](layout-sram.md)
 
+[Versión en español](layout-sram.es.md)
+
 The examined `.srm` has two `0x1000`-byte slots, based at `0x0000` and `0x1000`. The offsets below are relative to the selected slot's start.
 
 ## Slot validation

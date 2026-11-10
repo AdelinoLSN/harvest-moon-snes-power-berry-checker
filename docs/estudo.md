@@ -2,6 +2,8 @@
 
 [English version](estudo.en.md)
 
+[Versión en español](estudio.es.md)
+
 ## Objetivo
 
 Identificar, a partir de um save SRAM de Harvest Moon para SNES, quais eventos associados às dez Power Berries parecem já ter ocorrido. O objetivo prático é apontar eventos ainda não acionados, inclusive quando o jogo não mantém uma flag explícita para a cena.

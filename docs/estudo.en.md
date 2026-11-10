@@ -2,6 +2,8 @@
 
 [Versão em português brasileiro](estudo.md)
 
+[Versión en español](estudio.es.md)
+
 ## Objective
 
 Identify which events associated with the ten Power Berries appear to have occurred, based on a Harvest Moon for SNES SRAM save. The practical goal is to point out events that may still be untriggered, including cases where the game does not keep an explicit scene flag.
