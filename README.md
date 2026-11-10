@@ -46,10 +46,6 @@ Um `.srm` isolado não consegue distinguir “consumido” de “nunca obtido”
 
 - [Histórico, método, resultados e limitações](docs/estudo.md)
 - [Mapa dos campos do SRAM usados pelo programa](docs/layout-sram.md)
-- [Study: history, methods, results, and limitations](docs/estudo.en.md)
-- [SRAM fields used by the checker](docs/layout-sram.en.md)
-- [Estudio: historial, método, resultados y limitaciones (ES)](docs/estudio.es.md)
-- [Campos SRAM usados por el verificador (ES)](docs/layout-sram.es.md)
 
 ## Base de engenharia reversa
 

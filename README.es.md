@@ -44,10 +44,6 @@ Un archivo `.srm` aislado no permite distinguir entre “consumido” y “nunca
 
 - [Estudio: historial, método, resultados y limitaciones](docs/estudio.es.md)
 - [Campos SRAM usados por el verificador](docs/layout-sram.es.md)
-- [Histórico, método, resultados e limitações (PT-BR)](docs/estudo.md)
-- [Campos SRAM usados pelo verificador (PT-BR)](docs/layout-sram.md)
-- [Study: history, methods, results, and limitations (EN)](docs/estudo.en.md)
-- [SRAM fields used by the checker (EN)](docs/layout-sram.en.md)
 
 ## Base de ingeniería inversa
 

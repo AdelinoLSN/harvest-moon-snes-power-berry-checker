@@ -46,10 +46,6 @@ An isolated `.srm` file cannot distinguish “consumed” from “never obtained
 
 - [History, methods, results, and limitations](docs/estudo.en.md)
 - [SRAM fields used by the checker](docs/layout-sram.en.md)
-- [Histórico, método, resultados e limitações (PT-BR)](docs/estudo.md)
-- [Campos do SRAM usados pelo verificador (PT-BR)](docs/layout-sram.md)
-- [Study: history, methods, results, and limitations (ES)](docs/estudio.es.md)
-- [SRAM fields used by the checker (ES)](docs/layout-sram.es.md)
 
 ## Reverse-engineering basis
 
