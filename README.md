@@ -4,7 +4,7 @@
 
 Ferramenta em Python para ler um save SRAM (`.srm`) de **Harvest Moon para SNES** e exibir marcadores de eventos associados às Power Berries. Também verifica o estado do diamante azul, que permite inferir se a cena da flor de inverno já foi acionada quando se sabe que o item foi obtido anteriormente.
 
-O estudo foi feito com base no projeto de decompilação [HarvestMoonSNES](https://github.com/dzik87/HarvestMoonSNES), inspeções no Memory Viewer do Mesen, comparações de SRAM e leitura de dados no ImHex. As conclusões são inferências sobre a versão e os saves analisados; não são garantias universais para todas as revisões do jogo ou todas as condições de save.
+O projeto de decompilação [HarvestMoonSNES](https://github.com/dzik87/HarvestMoonSNES) serviu como guia para localizar e interpretar rotinas e campos. Os saves usados no estudo vieram de uma ROM comum do jogo, disponível publicamente há anos, e não de uma build desse projeto. O verificador lê saves SRAM normais (`.srm`); a análise não exige uma ROM compilada a partir do disassembly. As conclusões são inferências sobre a versão e os saves analisados, não garantias universais para todas as revisões do jogo ou condições de save.
 
 ## Requisitos
 
@@ -49,4 +49,4 @@ Um `.srm` isolado não consegue distinguir “consumido” de “nunca obtido”
 
 ## Base de engenharia reversa
 
-Este programa não é uma ferramenta oficial do jogo. A análise toma como referência o disassembly e os dados mantidos no projeto [dzik87/HarvestMoonSNES](https://github.com/dzik87/HarvestMoonSNES). Ver [docs/estudo.md](docs/estudo.md) para os caminhos de código consultados, as observações no Mesen/ImHex e os resultados experimentais.
+Este programa não é uma ferramenta oficial do jogo. O disassembly e os dados mantidos em [dzik87/HarvestMoonSNES](https://github.com/dzik87/HarvestMoonSNES) foram usados como referência de engenharia reversa, não como origem obrigatória dos saves. Ver [docs/estudo.md](docs/estudo.md) para os caminhos de código consultados, as observações no Mesen/ImHex e os resultados experimentais.

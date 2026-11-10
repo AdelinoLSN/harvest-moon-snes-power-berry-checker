@@ -4,7 +4,7 @@
 
 A Python tool that reads a **Harvest Moon for SNES** SRAM save (`.srm`) and reports event markers associated with Power Berries. It also checks the Blue Diamond state, which can help infer whether the Winter Flower scene has been triggered if the item is known to have been obtained previously.
 
-The study is based on the [HarvestMoonSNES](https://github.com/dzik87/HarvestMoonSNES) decompilation project, Mesen Memory Viewer inspections, SRAM comparisons, and ImHex data analysis. Findings are inferences from the game version and saves examined; they are not guaranteed to apply to every game revision or save condition.
+The [HarvestMoonSNES](https://github.com/dzik87/HarvestMoonSNES) decompilation project served as a guide for locating and interpreting routines and fields. The saves used in the study came from a regular game ROM that has been publicly available for years, not from a build of that project. The checker reads ordinary SRAM (`.srm`) saves; analysis does not require a ROM compiled from the disassembly. Findings are inferences from the game version and saves examined, not guarantees for every game revision or save condition.
 
 ## Requirements
 
@@ -49,4 +49,4 @@ An isolated `.srm` file cannot distinguish “consumed” from “never obtained
 
 ## Reverse-engineering basis
 
-This is not an official game tool. The analysis refers to the disassembly and data maintained in [dzik87/HarvestMoonSNES](https://github.com/dzik87/HarvestMoonSNES). See [docs/estudo.en.md](docs/estudo.en.md) for the consulted code paths, Mesen/ImHex observations, and experimental results.
+This is not an official game tool. The disassembly and data maintained in [dzik87/HarvestMoonSNES](https://github.com/dzik87/HarvestMoonSNES) were used as reverse-engineering references, not as a required source for the saves. See [docs/estudo.en.md](docs/estudo.en.md) for the consulted code paths, Mesen/ImHex observations, and experimental results.

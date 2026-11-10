@@ -6,7 +6,7 @@
 
 Identificar, a partir de um save SRAM de Harvest Moon para SNES, quais eventos associados às dez Power Berries parecem já ter ocorrido. O objetivo prático é apontar eventos ainda não acionados, inclusive quando o jogo não mantém uma flag explícita para a cena.
 
-O estudo combina o projeto de decompilação [HarvestMoonSNES](https://github.com/dzik87/HarvestMoonSNES), inspeção da WRAM pelo Memory Viewer do Mesen, leitura de bytes no ImHex e comparação de arquivos `.srm` de antes/depois. O projeto de decompilação é a referência para nomes de rotinas, endereços e interpretações do código; as conclusões abaixo são inferências e podem depender da revisão do jogo.
+O estudo combina o projeto de decompilação [HarvestMoonSNES](https://github.com/dzik87/HarvestMoonSNES), inspeção da WRAM pelo Memory Viewer do Mesen, leitura de bytes no ImHex e comparação de arquivos `.srm` de antes/depois. O disassembly serviu como guia para localizar rotinas, endereços e campos e para formular interpretações do código. Os saves experimentais vieram de uma ROM comum do jogo, disponível publicamente há anos, não de uma build do projeto de decompilação. Portanto, o verificador analisa saves SRAM normais do jogo; eles não precisam ter sido produzidos por uma ROM compilada a partir desse projeto. As conclusões abaixo são inferências e podem depender da revisão do jogo.
 
 ## 1. Primeira hipótese: localizar flags persistentes
 
@@ -67,7 +67,7 @@ Logo, a ausência do diamante pode servir como **marcador indireto da cena**, so
 
 ## 4. Comparação experimental dos saves
 
-Foram comparados `BEFORE.srm` e `AFTER.srm`, fornecidos pelo jogador. Ambos têm 8192 bytes; o slot 0 é o slot selecionado na análise. Os arquivos não são distribuídos neste repositório.
+Foram comparados `BEFORE.srm` e `AFTER.srm`, fornecidos pelo jogador e criados ao jogar uma ROM comum do jogo, disponível publicamente há anos (não uma build do projeto de decompilação). Ambos têm 8192 bytes; o slot 0 é o slot selecionado na análise. Os arquivos não são distribuídos neste repositório.
 
 O jogador informou que os saves correspondem a 02/Winter e 03/Winter, depois de avançar um dia e realizar o evento/consumo. Valores observados no slot 0:
 
