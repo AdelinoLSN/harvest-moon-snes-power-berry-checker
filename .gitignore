@@ -1,0 +1,5 @@
+*.srm
+*.state
+*.sav
+__pycache__/
+*.py[cod]
